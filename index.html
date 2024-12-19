@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortoise Rescue</title>
+    <link rel="stylesheet"
+    href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet"
+    href="styles.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+    <body>
+  <section id="home">       <!------Home Section--------->
+    <div class="container-fluid pb-4">
+
+      <!------------Navbar----------------->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active text-white" id="home-page" href="#home">Home <span class="sr-only"></span></a>
+            <a class="nav-item nav-link text-white" id="contact-page" href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <!---------Jumbotron---------------->
+
+      <header>
+        <div class="container-fluid bg-dark text-light p-5">
+            <div class="container bg-dark p-5">
+                <h1 class="display-4">Welcome to Tropics Tortoise Rescue</h1>
+                <hr>
+                <p>Make a Donation - All donations go towards food and supplies for our tortoises!</p>
+                <a href="#" class="btn btn-primary">Donate</a>
+            </div>
+        </div>
+      </header><br>
+      <div class="container">
+      <p class="text-center fs-5 fw-medium">
+        We rescue and rehabilitate tortoises, and sometimes get them ready for adoption if the situation is right. Below is a list of tortoise species that we are able to care for. If you know of a tortoise that needs a happy home, then fill out a form on our contact page. 
+      </p>
+      </div>
+      <hr><br>
+
+      <!-----------Grid--------------->
+
+      <div id="tortoise" class="container text-center mb-5 fs-4 bg-info py-4">
+        <div class="row"><h3 class="fw-semibold">Tortoise Species<br</h3></div>
+
+        <div class="row">
+          <div class="col-md-4">Russian</div>
+          <div class="col-md-4">Eastern Hermann's</div>
+          <div class="col-md-4">Pancake</div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">Indian Star</div>
+          <div class="col-md-4">Egyptian</div>
+          <div class="col-md-4">Marginated</div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">Red Footed Tortoise</div>
+          <div class="col-md-4">Sulcata</div>
+          <div class="col-md-4">Leopard</div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">African Spurred</div>
+          <div class="col-md-4">Yellow Footed Tortoise</div>
+          <div class="col-md-4">Radiated</div>
+        </div>
+      </div>
+
+      <!----------------Images (Grid)-------------------->
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-4">
+        <div class="card bg-info" style="width: 25rem; height: 20rem;">
+          <img src="https://d1jyxxz9imt9yb.cloudfront.net/medialib/874/image/s768x1300/Dreamstime_xxl_94660011---Spur-thighed-tortoise_reduced.jpg" 
+          class="card-img-top" style="height: 16rem;" alt="A picture of a tortoise">
+          <div class="card-body">
+            <p class="card-text fw-medium">Spur-Thighed Tortoise</p>
+          </div>
+        </div>
+          </div>
+
+        <div class="col-md-4">
+        <div class="card bg-info" style="width: 25rem; height: 20rem;">
+          <img src="https://www.saginawzoo.com/wp-content/uploads/2020/06/da-red-footed-tortoises-adult__20417.1436381995.1280.1280.jpg" 
+          class="card-img-top" style="height: 16rem;" alt="A picture of a tortoise">
+          <div class="card-body">
+            <p class="card-text fw-medium">Red-Footed Tortoise</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card bg-info" style="width: 25rem; height: 20rem;">
+          <img src="https://nationalzoo.si.edu/sites/default/files/animals/aldabratortoise-001.jpg" 
+          class="card-img-top" style="height: 16rem;" alt="A picture of a tortoise">
+          <div class="card-body">
+            <p class="card-text fw-medium">Aldabra Tortoise</p>
+          </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+      </div>
+      </div>
+    </section>
+
+    <!----------Contact Section----------->
+      <section id="contact">
+        <header>
+          <div class="container-fluid bg-dark text-light p-5 bg-info-subtle">
+              <div class="container bg-dark p-5">
+                  <h1 class="display-4">Contact Us</h1>
+                  <hr>
+                  <p>If you would like to contact us about anything, including questions about adoption, or a tortoise that may need a loving home, please fill out the form below.</p>
+              </div>
+          </div>
+        </header>
+
+        <!---------------Form and Table Grid--------------------->
+
+        <div class="container" id="form-and table-grid">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form-div">
+          <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone">
+            <button>Submit</button>
+          </form>
+        </div>
+        </div>
+            <div class="col-lg-12">
+            <div class="table">
+          <table border="1">
+             <caption>Our Locations</caption>
+            <tr>
+              <th>San Diego, California</th>
+              <th>Miami, Florida</th>
+              <th>Greenville, South Carolina</th>
+            </tr>
+            <tr>
+             <td>1832 Hillboro Drive</td>
+              <td>560 S. Lindsay Ln</td>
+              <td>7122 Green St.</td>
+            </tr>
+            <tr>
+               <td>619-352-4278</td>
+              <td>305-422-5186</td>
+              <td>864-225-7349</td>
+            </tr>
+          </table>
+        </div>
+            </div>
+          </div>
+          </div>
+      </section>
+
+    <footer>
+  <p class="footer">
+    &#169 by Tropics Tortoise Rescue 2024
+  </p>
+</footer>  
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(124, 255, 124);
+     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.footer{
+    text-align: center;
+    font-size: 10px;
+    background-color: white;
+    padding-bottom: none;
+    margin-bottom: 0;
+}
+
+footer{
+    margin-top: auto;
+}
+
+#contact{
+   min-height: 100vh;
+    background-image: url(https://www.esa.org/esablog-preprod/wp-content/uploads/sites/90/2019/05/DSC02728.jpg);
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;   
+    font-weight: bold;
+}
+
+.form-div{
+   text-align: center;
+   background-color: rgb(0, 143, 172);
+   color: black; 
+   width: 40%; 
+   margin-left: 30%;
+   margin-top: 5%;
+}
+
+form button:hover{
+    background-color: rgb(0, 143, 172);
+    font-weight: bold;
+}
+
+table{
+    width: 40%;
+    height: 100px;
+   caption-side: top;
+  text-align: center;
+  border: 2px solid rgb(0, 143, 172);
+  background-color: rgb(0, 143, 172); 
+  margin-left: 30%;
+}
+
+table caption{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
+
+table th td{
+    padding:15px;
+}
