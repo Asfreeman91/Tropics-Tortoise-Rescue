@@ -137,39 +137,49 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="form-div">
-          <form>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lname">
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email">
-            <label for="phone">Phone Number</label>
-            <input type="text" id="phone" name="phone">
-            <button>Submit</button>
-          </form>
-        </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <button>Submit</button>
+                </div>
         </div>
             <div class="col-lg-12">
             <div class="table">
-          <table border="1">
-             <caption>Our Locations</caption>
-            <tr>
-              <th>San Diego, California</th>
-              <th>Miami, Florida</th>
-              <th>Greenville, South Carolina</th>
-            </tr>
-            <tr>
-             <td>1832 Hillboro Drive</td>
-              <td>560 S. Lindsay Ln</td>
-              <td>7122 Green St.</td>
-            </tr>
-            <tr>
-               <td>619-352-4278</td>
-              <td>305-422-5186</td>
-              <td>864-225-7349</td>
-            </tr>
-          </table>
+              <table class="table mx-auto" style="width: 40%;">
+                <caption>Our Locations</caption>
+                <thead>
+                  <tr>
+                    <th class="bg-info" scope="col";">#</th>
+                    <th class="bg-info" scope="col">Location</th>
+                    <th class="bg-info" scope="col">Phone Number</th>
+                    <th class="bg-info" scope="col">Address</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="bg-info" scope="row">1</th>
+                    <td class="bg-info">San Diego</td>
+                    <td class="bg-info">619-385-4221</td>
+                    <td class="bg-info">3398 W. Seaside Ave.</td>
+                  </tr>
+                  <tr>
+                    <th class="bg-info" scope="row">2</th>
+                    <td class="bg-info">Greenville</td>
+                    <td class="bg-info">252-419-8224</td>
+                    <td class="bg-info">685 Green St.</td>
+                  </tr>
+                  <tr>
+                    <th class="bg-info" scope="row">3</th>
+                    <td class="bg-info">Miami</td>
+                    <td class="bg-info">305-619-1942</td>
+                    <td class="bg-info">785 E. Lindsay Blvd.</td>
+                  </tr>
+                </tbody>
+              </table>
         </div>
             </div>
           </div>
