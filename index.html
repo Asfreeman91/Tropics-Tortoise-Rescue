@@ -16,7 +16,7 @@
     </head>
     <body>
   <section id="home">       <!------Home Section--------->
-    <div class="container-fluid pb-4">
+    <div class="pb-4">
 
       <!------------Navbar----------------->
 
@@ -26,14 +26,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active text-white" id="home-page" href="#home">Home <span class="sr-only"></span></a>
-            <a class="nav-item nav-link text-white" id="contact-page" href="#contact">Contact</a>
+            <a class="nav-item nav-link active text-white" id="home-page" href="index.html">Home <span class="sr-only"></span></a>
+            <a class="nav-item nav-link text-white" id="contact-page" href="contact.html">Contact</a>
           </div>
         </div>
       </nav>
 
       <!---------Jumbotron---------------->
-
+      <div class="container">
       <header>
         <div class="container-fluid bg-dark text-light p-5">
             <div class="container bg-dark p-5">
@@ -83,9 +83,9 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-md-4">
-        <div class="card bg-info" style="width: 25rem; height: 20rem;">
+        <div class="card bg-info" style="width: auto; height: 20rem;">
           <img src="https://d1jyxxz9imt9yb.cloudfront.net/medialib/874/image/s768x1300/Dreamstime_xxl_94660011---Spur-thighed-tortoise_reduced.jpg" 
-          class="card-img-top" style="height: 16rem;" alt="A picture of a tortoise">
+          class="card-img-top img-responsive img-fluid" style="height: 16rem;" alt="A picture of a tortoise">
           <div class="card-body">
             <p class="card-text fw-medium">Spur-Thighed Tortoise</p>
           </div>
@@ -93,9 +93,9 @@
           </div>
 
         <div class="col-md-4">
-        <div class="card bg-info" style="width: 25rem; height: 20rem;">
+        <div class="card bg-info" style="width: auto; height: 20rem;">
           <img src="https://www.saginawzoo.com/wp-content/uploads/2020/06/da-red-footed-tortoises-adult__20417.1436381995.1280.1280.jpg" 
-          class="card-img-top" style="height: 16rem;" alt="A picture of a tortoise">
+          class="card-img-top img-responsive img-fluid" style="height: 16rem;" alt="A picture of a tortoise">
           <div class="card-body">
             <p class="card-text fw-medium">Red-Footed Tortoise</p>
           </div>
@@ -103,9 +103,9 @@
         </div>
 
         <div class="col-md-4">
-        <div class="card bg-info" style="width: 25rem; height: 20rem;">
+        <div class="card bg-info" style="width: auto; height: 20rem;">
           <img src="https://nationalzoo.si.edu/sites/default/files/animals/aldabratortoise-001.jpg" 
-          class="card-img-top" style="height: 16rem;" alt="A picture of a tortoise">
+          class="card-img-top img-responsive img-fluid" style="height: 16rem;" alt="A picture of a tortoise">
           <div class="card-body">
             <p class="card-text fw-medium">Aldabra Tortoise</p>
           </div>
@@ -118,73 +118,7 @@
       </div>
       </div>
     </section>
-
-    <!----------Contact Section----------->
-      <section id="contact">
-        <header>
-          <div class="container-fluid bg-dark text-light p-5 bg-info-subtle">
-              <div class="container bg-dark p-5">
-                  <h1 class="display-4">Contact Us</h1>
-                  <hr>
-                  <p>If you would like to contact us about anything, including questions about adoption, or a tortoise that may need a loving home, please fill out the form below.</p>
-              </div>
-          </div>
-        </header>
-
-        <!---------------Form and Table Grid--------------------->
-
-        <div class="container" id="form-and table-grid">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="form-div">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  <button>Submit</button>
-                </div>
-        </div>
-            <div class="col-lg-12">
-            <div class="table">
-              <table class="table mx-auto" style="width: 40%;">
-                <caption>Our Locations</caption>
-                <thead>
-                  <tr>
-                    <th class="bg-info" scope="col";">#</th>
-                    <th class="bg-info" scope="col">Location</th>
-                    <th class="bg-info" scope="col">Phone Number</th>
-                    <th class="bg-info" scope="col">Address</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th class="bg-info" scope="row">1</th>
-                    <td class="bg-info">San Diego</td>
-                    <td class="bg-info">619-385-4221</td>
-                    <td class="bg-info">3398 W. Seaside Ave.</td>
-                  </tr>
-                  <tr>
-                    <th class="bg-info" scope="row">2</th>
-                    <td class="bg-info">Greenville</td>
-                    <td class="bg-info">252-419-8224</td>
-                    <td class="bg-info">685 Green St.</td>
-                  </tr>
-                  <tr>
-                    <th class="bg-info" scope="row">3</th>
-                    <td class="bg-info">Miami</td>
-                    <td class="bg-info">305-619-1942</td>
-                    <td class="bg-info">785 E. Lindsay Blvd.</td>
-                  </tr>
-                </tbody>
-              </table>
-        </div>
-            </div>
-          </div>
-          </div>
-      </section>
+  </div>
 
     <footer>
   <p class="footer">
